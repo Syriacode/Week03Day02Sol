@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_data_entry">
+
+    <EditText
+        android:id="@+id/etStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student ID"/>
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student Name"/>
+    <EditText
+        android:id="@+id/etStudentMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student Major"/>
+    <EditText
+        android:id="@+id/etStudentMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student Minor"/>
+    <EditText
+        android:id="@+id/etStudentExpected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student Expected Grad Year"/>
+    <EditText
+        android:id="@+id/etStudentGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student GPA"/>
+    <EditText
+        android:id="@+id/etStudentCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:hint="Student Completed Hours"/>
+    <Button
+        android:id="@+id/btnSendResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND RESULT"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
